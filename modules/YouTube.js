@@ -33,7 +33,7 @@ SK.moduleConstructors.YouTube.prototype.init = function() {
             var $el = $('<iframe>');
             $el.attr('src', ytLink);
             $el.attr('width', "400");
-            $el.attr('height', "300");
+            $el.attr('height', "225");
             $el.attr('allowfullscreen', 1);
             $el.attr('frameborder', 0);
             $el.css('margin', '10px');
